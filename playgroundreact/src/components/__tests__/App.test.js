@@ -8,3 +8,8 @@ it('Shows a Comment Box', () => {
   const wrapped = shallow(<App />);
   expect(wrapped.find(CommentBox).length).toEqual(1);
 });
+
+it ('Show a Comment List', () => {
+  const wrapped = shallow(<App />);
+  expect(wrapped.find(CommentBox).length).toEqual(1);
+});
