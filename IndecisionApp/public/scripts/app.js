@@ -2,6 +2,7 @@
 
 console.log("App.js is running!");
 
+// JSX - Javascript XML
 var template = React.createElement(
   "div",
   null,
@@ -28,6 +29,26 @@ var template = React.createElement(
       null,
       "Item Two"
     )
+  )
+);
+
+var templateTwo = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "h1",
+    null,
+    "Thoriq"
+  ),
+  React.createElement(
+    "p",
+    null,
+    "Age: 23"
+  ),
+  React.createElement(
+    "p",
+    null,
+    "Location: Depok"
   )
 );
 
