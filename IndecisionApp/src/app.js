@@ -14,11 +14,17 @@ var template = (
 
 var userName ='Mike';
 var age = 27;
+
+var user = {
+  name: 'thoriq',
+  age: 23,
+  citacita: 'Developer handal',
+}
 var templateTwo = (
   <div>
-    <h1>{userName + '!'}</h1>
-    <p>Age: {age}</p>
-    <p>Location: Depok</p>
+    <h1>{user.name}</h1>
+    <p>Age: {user.age}</p>
+    <p>Cita-cita: {user.citacita}</p>
   </div>
 );
 
