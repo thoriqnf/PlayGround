@@ -12,14 +12,16 @@ var template = (
     </div>
 );
 
+var userName ='Mike';
+var age = 27;
 var templateTwo = (
   <div>
-    <h1>Thoriq</h1>
-    <p>Age: 23</p>
+    <h1>{userName + '!'}</h1>
+    <p>Age: {age}</p>
     <p>Location: Depok</p>
   </div>
 );
 
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);
