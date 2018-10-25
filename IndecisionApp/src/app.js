@@ -23,16 +23,24 @@ var age = 27;
 var user = {
   name: 'thoriq',
   age: 23,
-  citacita: 'Developer handal',
+  location: 'Depok',
+}
+
+function getLocation(location) {
+  if (location) {
+    return location;
+  } else {
+    return 'Unknown';
+  }
 }
 var templateTwo = (
   <div>
     <h1>{user.name}</h1>
     <p>Age: {user.age}</p>
-    <p>Cita-cita: {user.citacita}</p>
+    <p>Location: {getLocation(user.location)}</p>
   </div>
 );
 
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);

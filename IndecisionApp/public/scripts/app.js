@@ -42,8 +42,16 @@ var age = 27;
 var user = {
   name: 'thoriq',
   age: 23,
-  citacita: 'Developer handal'
+  location: 'Depok'
 };
+
+function getLocation(location) {
+  if (location) {
+    return location;
+  } else {
+    return 'Unknown';
+  }
+}
 var templateTwo = React.createElement(
   'div',
   null,
@@ -61,11 +69,11 @@ var templateTwo = React.createElement(
   React.createElement(
     'p',
     null,
-    'Cita-cita: ',
-    user.citacita
+    'Location: ',
+    getLocation(user.location)
   )
 );
 
 var appRoot = document.getElementById('app');
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);
