@@ -28,16 +28,14 @@ var user = {
 
 function getLocation(location) {
   if (location) {
-    return location;
-  } else {
-    return 'Unknown';
-  }
+    return <p>Location: {location}</p>;
+  } 
 }
 var templateTwo = (
   <div>
     <h1>{user.name}</h1>
     <p>Age: {user.age}</p>
-    <p>Location: {getLocation(user.location)}</p>
+    {getLocation(user.location)}
   </div>
 );
 
