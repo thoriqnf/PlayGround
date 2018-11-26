@@ -1,0 +1,2 @@
+1. "" dengan '' sama aja sebenernya ga ada bedanya cuman convention doang
+2. Class vs ClassName = Class takutnya salah di artikan sebagai kelas javascript not in JSX
