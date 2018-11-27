@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const App = () => {
 
-  const buttonText = 'Click me!';
+  const buttonText = { text: 'Click me!' };
 
   return (
     <div>
@@ -11,7 +11,7 @@ const App = () => {
         Enter name:
       </label>
       <input id="name" type="text" />
-      <button style={{ backgroundColor: 'blue', color: 'white' }}>{buttonText}</button>
+      <button style={{ backgroundColor: 'blue', color: 'white' }}>{buttonText.text}</button>
     </div>
   );
 };
