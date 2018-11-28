@@ -3,3 +3,9 @@
 3. () ini namanya parentheses >> buat manggil function
 4. {} Kalo curly brace itu artinya object
 5. JSX can't show plain object,  perlu dikasih tipe data apa yang mau di panggil 
+6. Different JSX and html syntax: belum tentu buat error tapi warning aja
+7. JSX interpolation
+8.
+Component Nesting >> Ada di dalemnya
+Component resuability >> Mau di pake lagi berkali kali
+Component Configuration >> Cara membuatnya
