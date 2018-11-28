@@ -9,3 +9,4 @@
 Component Nesting >> Ada di dalemnya
 Component resuability >> Mau di pake lagi berkali kali
 Component Configuration >> Cara membuatnya
+9. alt for images kalo error dia show itu
