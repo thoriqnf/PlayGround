@@ -13,4 +13,4 @@ Component Configuration >> Cara membuatnya
 10. props= property
 
 Props >> passing data from parent componnt do a child component, goalnya untuk customize or configure a child component
-Berarti ada yang passing dan 
+Berarti ada yang passing dan parent
