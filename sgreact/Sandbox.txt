@@ -14,3 +14,5 @@ Component Configuration >> Cara membuatnya
 
 Props >> passing data from parent componnt do a child component, goalnya untuk customize or configure a child component
 Berarti ada yang passing dan parent
+
+Ga bisa props di akses langsung lewat function, harus di akses lewat js variable {}
