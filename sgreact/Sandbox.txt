@@ -18,3 +18,5 @@ Berarti ada yang passing dan parent
 Ga bisa props di akses langsung lewat function, harus di akses lewat js variable {}
 
 lewat props.children nanti bisa ngakses props bawahnya
+
+class based vs functional component
