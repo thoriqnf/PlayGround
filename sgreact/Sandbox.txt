@@ -20,3 +20,14 @@ Ga bisa props di akses langsung lewat function, harus di akses lewat js variable
 lewat props.children nanti bisa ngakses props bawahnya
 
 class based vs functional component
+Tergantung kebutuhan
+Class based components
+1. Easier code organization
+2. Can use 'state' >> easier to handle user input
+3. Understands lifecycle events >> Easier to do things when the app first starts
+
+State
+1. Only usabale with class components
+2. State is a js Object that contains data relevant to a component
+3. Updating state on a componentn causes th ecomponent to (almost) instantly rerender ONLY using setState
+4. State must be initialized when a component is created
