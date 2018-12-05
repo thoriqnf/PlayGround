@@ -31,3 +31,6 @@ State
 2. State is a js Object that contains data relevant to a component
 3. Updating state on a componentn causes th ecomponent to (almost) instantly rerender ONLY using setState
 4. State must be initialized when a component is created
+
+Constructor itu sangat pertama kali banget di panggil
+State hanya boleh di inisiasi 1 kali di this.state dan hanya bisa di update dengan setState
