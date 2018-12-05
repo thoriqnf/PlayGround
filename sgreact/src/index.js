@@ -13,25 +13,26 @@ class App extends React.Component {
       lat: null,
       errorMessage: ''
     };
+  }
 
+  componentWillMount() {
+    console.log('willmount', this.state.lat);
+  }
+  componentDidMount() {
+    console.log('Mount', this.state.lat);
     window.navigator.geolocation.getCurrentPosition(
-      (position) => {
-        this.setState({ lat: position.coords.latitude })
-      },
-      (err) => {
-        this.setState({ errorMessage: err.message });
-      }
+      position => this.setState({ lat: position.coords.latitude }),
+      err => this.setState({ errorMessage: err.message })
     );
   }
 
-
-
   componentDidUpdate() {
-    console.log('Updated');
+    console.log('Updated', this.state.lat);
   }
 
-  componentDidMount() {
-    console.log('Mount');
+  componentWillUnmount() {
+    clearInterval(this.state.lat);
+    console.log('Unmount', this.state.lat);
   }
 
   render() {
