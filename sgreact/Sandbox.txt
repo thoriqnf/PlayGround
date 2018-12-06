@@ -34,3 +34,9 @@ State
 
 Constructor itu sangat pertama kali banget di panggil
 State hanya boleh di inisiasi 1 kali di this.state dan hanya bisa di update dengan setState
+
+controlled event give instant access to state 
+
+Function .toUpperCase() buat upper case semua input >> case bagus buat nama kartu kredit
+
+form punya default untuk refresh page, dengan function prevent default dia ga akan refresh page sendiri
