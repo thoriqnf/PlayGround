@@ -40,3 +40,6 @@ controlled event give instant access to state
 Function .toUpperCase() buat upper case semua input >> case bagus buat nama kartu kredit
 
 form punya default untuk refresh page, dengan function prevent default dia ga akan refresh page sendiri
+
+constructor needed super if they have extends
+Salah satu cara solve error this. (state undefined) dengan bind, bisa pake cara arrow function di onFormSubmit juga
