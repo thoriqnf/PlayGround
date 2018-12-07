@@ -43,3 +43,5 @@ form punya default untuk refresh page, dengan function prevent default dia ga ak
 
 constructor needed super if they have extends
 Salah satu cara solve error this. (state undefined) dengan bind, bisa pake cara arrow function di onFormSubmit juga
+
+you can use .then statement for get status data like 200 or 4XX, buat console log kalo ada error

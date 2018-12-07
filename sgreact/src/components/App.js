@@ -13,8 +13,11 @@ class App extends React.Component {
       headers: {
         Authorization: 'Client-ID 42d520b941b51296907e355d942b7efdb08318788891422015e8b686d33c0324'
       }
+    }).then((response) => {
+      console.log(response.data.results);
     });
   }
+
   render() {
     return (
       <div className="ui container" style={{ marginTop: '10px' }}>
