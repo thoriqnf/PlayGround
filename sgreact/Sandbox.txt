@@ -45,3 +45,10 @@ constructor needed super if they have extends
 Salah satu cara solve error this. (state undefined) dengan bind, bisa pake cara arrow function di onFormSubmit juga
 
 you can use .then statement for get status data like 200 or 4XX, buat console log kalo ada error
+
+default property dulu pake null sekarang pake array
+Kalo udah tau mau pake data array masukin aja pake empty array atau object
+
+map function that built in array object, map kalo datanya null error kalo di empty array no problem
+
+this bisa di console.log
