@@ -20,3 +20,35 @@ let sandwich = veggie.concat(meat, 'bread')
 //ES6 way
 let sandwich = [...veggie, ...meat, 'bread']
 
+3. Split String using ES6 Spread
+
+const pizza = 'pizza'
+
+//Old Way
+const slicedPizza = pizza.split('')
+
+// ES6 Way
+const slicedPizza = [...pizza]
+
+//Result
+// [ 'p', 'i', 'z', 'z', 'a' ]
+
+4. Remove Array Duplicates using ES6 Set
+
+const duplicates = [1,2,3,4,4,1]
+
+const uniques = Array.from(new Set(duplicates))
+uniques
+
+5. ES6 way of creating object with dynammic keys
+
+var key = 'key';
+
+//Old Way
+var lock = {}
+lock[key] = 'unlock'
+
+//New Way
+car lock = {
+  [key]: 'unlock'
+}
