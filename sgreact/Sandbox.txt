@@ -52,3 +52,9 @@ Kalo udah tau mau pake data array masukin aja pake empty array atau object
 map function that built in array object, map kalo datanya null error kalo di empty array no problem
 
 this bisa di console.log
+
+ref = reference
+1. Gives access to a single DOM element
+2. Need to define constructor function to crate a reference and assign it as an instance
+
+find out callbacks and imageref
