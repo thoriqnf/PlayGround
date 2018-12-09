@@ -58,3 +58,6 @@ ref = reference
 2. Need to define constructor function to crate a reference and assign it as an instance
 
 find out callbacks and imageref
+
+what is spans?
+
