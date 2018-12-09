@@ -9,3 +9,14 @@ function meal({protein, card, veggie}){}
 meal({carb: 'rice', veiggie: 'vegetable', protein: 'meat'})
 
 Buat arrange parameters
+
+2. Combine Multiple Arrays using Spread
+let veggie = ['tomata', 'avocado']
+let meat = ['meat']
+
+//Old way
+let sandwich = veggie.concat(meat, 'bread')
+
+//ES6 way
+let sandwich = [...veggie, ...meat, 'bread']
+
