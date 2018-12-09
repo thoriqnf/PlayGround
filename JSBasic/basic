@@ -1,0 +1,11 @@
+1. Named Parameters using Destructuring Objects
+
+// arguments must be in specific order
+function meal(protein, card, veggie){}
+meal('meat', 'rice', 'vegetable')
+
+// arguments can be in any order
+function meal({protein, card, veggie}){}
+meal({carb: 'rice', veiggie: 'vegetable', protein: 'meat'})
+
+Buat arrange parameters

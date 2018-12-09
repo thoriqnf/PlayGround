@@ -61,3 +61,14 @@ find out callbacks and imageref
 
 what is spans?
 
+Redux => state management library
+Makes complex applications easier
+not required CRA
+not explicity designed to work with react
+
+Redux cycle
+1. Action Creator
+2. Action
+3. Dispatch 
+4. Reducer
+5. State
