@@ -52,3 +52,67 @@ lock[key] = 'unlock'
 car lock = {
   [key]: 'unlock'
 }
+
+6. ES6's shorthand for defining methods in Objects
+
+const Rain = {
+ // bringUmbrella: function() {}
+ bringUmbrella(){
+   return
+ }
+}
+
+7. convert to true array 
+
+const nodeList = document.querySelectorAll('ul li');
+
+Array.from(nodelist);
+[...nodeList]
+
+8. LowerCase
+const original = 'WeB BasIcS 102';
+const ower = original.toLowerCase();
+
+can't work with null, undefined, array and number
+
+9. While loop
+
+let money = 10;
+
+while(money){
+  console.log('belanja cuy')
+  money--
+}
+
+10. You can use autofocus on html so after the web full render he can fill the form
+
+11. Reverse String
+
+function reverseString(str) {
+  return str
+  .split('')
+  .reverse('')
+  .join('')
+}
+
+12. Dynamic Property name with ES6
+
+let cake = 'cake'basic
+
+// Old way requires 2 steps
+let pan = {};
+pan[cake] = 'cake';
+
+//New Way
+let pan = {
+  [cake]: 'cake'
+}
+
+13. ES6 Way to Clone an Array
+const sheeps = ['Kambing', 'Kambing', 'Kambing']
+
+//Old Way
+const clone Sheeps = sheeps.slice()
+
+//ES6 Way
+const cloneSheeps = [...sheeps]
