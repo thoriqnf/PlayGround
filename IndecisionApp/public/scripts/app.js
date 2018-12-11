@@ -8,7 +8,7 @@ var app = {
   option: ['One', 'Two']
 
   // JSX - Javascript XML
-};var template = React.createElement(
+}; var template = React.createElement(
   'div',
   null,
   React.createElement(
