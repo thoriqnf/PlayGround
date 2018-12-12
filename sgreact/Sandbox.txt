@@ -76,3 +76,12 @@ Redux cycle
 Redux is not Magic!
 - Redux does not automatically detect action creators being called
 - Redux does not automatically detect a function returning an object is an 'action'
+
+middleware in Redux
+- Function that gets called with every action we Dispatch
+- Has the ability to stop, modify or otherwise mess around with actions
+- Tons of open source middleware exist
+- Most popular use of middleware is for dealing with asunc actions
+- we are going to use a middleware called 'Redux-Thunk' to solve our async issues
+
+redux thunk can dispatch a function and it's help a lot
