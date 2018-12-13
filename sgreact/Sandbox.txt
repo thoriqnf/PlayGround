@@ -88,3 +88,11 @@ redux thunk can dispatch a function and it's help a lot
 
 reducer
 1. Only can return any besides 'undefined'  
+2. If state v1 come with function can produce state v2
+3. Pure reducers, only call state + action
+4. Must not mutate its input state argument
+
+mutations in javascript
+.push for adding data to array, .pop delete last data at array
+- anytime that we change the contents of an array it is referred to as a mutation
+- in javascript string and number are immuteable, only array and object muteable
