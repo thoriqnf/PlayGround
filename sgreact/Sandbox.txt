@@ -85,3 +85,6 @@ middleware in Redux
 - we are going to use a middleware called 'Redux-Thunk' to solve our async issues
 
 redux thunk can dispatch a function and it's help a lot
+
+reducer
+1. Only can return any besides 'undefined'  
