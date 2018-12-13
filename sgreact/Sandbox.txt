@@ -91,8 +91,30 @@ reducer
 2. If state v1 come with function can produce state v2
 3. Pure reducers, only call state + action
 4. Must not mutate its input state argument
+means not mutate the value not the content
 
 mutations in javascript
 .push for adding data to array, .pop delete last data at array
 - anytime that we change the contents of an array it is referred to as a mutation
 - in javascript string and number are immuteable, only array and object muteable
+
+equality arrays and object
+const numbers = [1,2,3]
+===case 1=== 
+number === [1,2,3] >> false
+they reference to the exact same array in memory not the contents 
+
+
+safe state updates in reducers
+1. removing an element from an array 
+state.pop() >> state.filter(element => element !== 'hi')
+2. Adding an element to an array
+state.push('hi') >> [...state, 'hi']
+3. Replacing an element in an array
+state[0] = 'hi' >> state.map(el => el 'hi' ? 'bye' : el)
+4. Updating a property in an object
+state.name = 'Sam' >> {...state, name: 'Sam'}
+5. Adding a property to an object
+state.age = 30 >> {...state, age: 30}
+6. Removing a property from an object
+delete.state.name >> {...state, age: undefined}
