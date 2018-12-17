@@ -120,3 +120,6 @@ state.age = 30 >> {...state, age: 30}
 delete.state.name >> {...state, age: undefined}
 
 lodash function .mememoize gunanya buat memingat function yang udah lewat, jadi kalo dia panggil lagi yang sama ga perlu re run function
+
+lodash banyak sekali function penting di dalamnya
+_.chain bisa naroh banyak function dengan sederhana tapi di terakhir harus ada .value() mirip kayak break lah
