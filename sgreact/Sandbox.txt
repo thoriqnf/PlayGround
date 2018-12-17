@@ -123,3 +123,5 @@ lodash function .mememoize gunanya buat memingat function yang udah lewat, jadi 
 
 lodash banyak sekali function penting di dalamnya
 _.chain bisa naroh banyak function dengan sederhana tapi di terakhir harus ada .value() mirip kayak break lah
+
+manggil api berkali kali di sebut over fetching stuff
