@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { fetchUsers } from '../actions';
+import { fetchUser } from '../actions';
 
-class UserList extends React.Component {
+class UserHeader extends React.Component {
   componentDidMount() {
-    console.log(this.props.fetchUsers)
-    this.props.fetchUsers();
+    console.log(this.props.fetchUser)
+    this.props.fetchUser(this.props.userId);
   }
 
   renderList() {
@@ -33,4 +33,4 @@ const mapStateToProps = state => {
   return { users: state.users }
 }
 
-export default connect(mapStateToProps, { fetchUsers })(UserList);
+export default connect(mapStateToProps, { fetchUser })(UserHeader);
