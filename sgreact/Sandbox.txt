@@ -127,3 +127,7 @@ _.chain bisa naroh banyak function dengan sederhana tapi di terakhir harus ada .
 manggil api berkali kali di sebut over fetching stuff
 
 OBS open broadcaster software >> rtmp real time messagin protocol server >> viewer's browser
+
+Bad Navigation
+Use anchor tag <a/> because dump all index.html 
+file = brand new page, means refresh everything
