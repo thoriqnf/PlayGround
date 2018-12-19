@@ -137,3 +137,8 @@ Use Link from react router to navigate because it still in your applications
 Link tag transform to anchor tag
 
 Single Apps means 1 js applications in single html document
+
+BrowserRouter >> /page2 >> use everything after .com
+HashRouter >> /#/page2 >> user everything after #
+MemoryRouter >> / >> Doesn't use the URL to track navigation
+404 error means not found
