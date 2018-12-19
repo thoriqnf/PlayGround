@@ -131,3 +131,9 @@ OBS open broadcaster software >> rtmp real time messagin protocol server >> view
 Bad Navigation
 Use anchor tag <a/> because dump all index.html 
 file = brand new page, means refresh everything
+
+Good Navigation
+Use Link from react router to navigate because it still in your applications
+Link tag transform to anchor tag
+
+Single Apps means 1 js applications in single html document
