@@ -142,3 +142,20 @@ BrowserRouter >> /page2 >> use everything after .com
 HashRouter >> /#/page2 >> user everything after #
 MemoryRouter >> / >> Doesn't use the URL to track navigation
 404 error means not found
+
+Google oauth have scope to login with various different API
+
+OAuth for servers flow
+1. Results in a 'token' that a server can use to make requests on behalf of the user
+2. Usually used when we have an app that needs to access user data when they are not logged in
+3. Difficult to setup because we need to store a lot of info about the user
+
+OAuth for JS Browser Apps
+1. Results in a 'token' that a browser app can use to make rewuests on behalf of the user
+2. Usually used when we have an app that only needs to access user data while they are logged in
+3. very easy to set up thanks to Google's JS Lib to automate flow
+
+generate oauth google lewat developers console
+Masukinnya ga bisa pake npm harus pake script dari html
+Setelah masuk harus di cek lewat console (gapi)
+meskipun di console dia udah ngerti variable tertentu kita harus ngakses pake windows.
