@@ -159,3 +159,5 @@ generate oauth google lewat developers console
 Masukinnya ga bisa pake npm harus pake script dari html
 Setelah masuk harus di cek lewat console (gapi)
 meskipun di console dia udah ngerti variable tertentu kita harus ngakses pake windows.
+
+__proto__ means prototype property
