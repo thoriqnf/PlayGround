@@ -161,3 +161,6 @@ Setelah masuk harus di cek lewat console (gapi)
 meskipun di console dia udah ngerti variable tertentu kita harus ngakses pake windows.
 
 __proto__ means prototype property
+
+{this.onSignIn} vs {this.onSignIn()}
+bedanya kalo ada () itu ke called instant
