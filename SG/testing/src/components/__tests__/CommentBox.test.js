@@ -1,18 +1,15 @@
 import React from "react";
 import { mount } from "enzyme";
 import CommentBox from "components/CommentBox";
-
-import { createStore } from "react-redux";
-import reducers from "reducers";
-import { Provider } from "redux";
+import Root from "Root";
 
 let wrapped;
 
 beforeEach(() => {
   wrapped = mount(
-    <Provider store={createStore(reducers, {})}>
+    <Root>
       <CommentBox />
-    </Provider>
+    </Root>
   );
 });
 
@@ -42,3 +39,5 @@ describe("the text area", () => {
     expect(wrapped.find("textarea").prop("value")).toEqual("");
   });
 });
+
+//testing redux yang ada provider harus di pindahin ke root dulu jadi biar sekali pake di buat berkali kali ke ke index.js dan ke testingnya
