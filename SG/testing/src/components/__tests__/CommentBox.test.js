@@ -2,10 +2,18 @@ import React from "react";
 import { mount } from "enzyme";
 import CommentBox from "components/CommentBox";
 
+import { createStore } from "react-redux";
+import reducers from "reducers";
+import { Provider } from "redux";
+
 let wrapped;
 
 beforeEach(() => {
-  wrapped = mount(<CommentBox />);
+  wrapped = mount(
+    <Provider store={createStore(reducers, {})}>
+      <CommentBox />
+    </Provider>
+  );
 });
 
 afterEach(() => {
