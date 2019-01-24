@@ -1,5 +1,5 @@
 import { SAVE_COMMENT, FETCH_COMMENTS } from "actions/types";
-improt axios from 'axios';
+import axios from 'axios';
 
 export function saveComment(comment) {
   return {
