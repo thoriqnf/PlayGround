@@ -1,14 +1,27 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
+import { connect } from 'react-router';
 import CommentBox from "components/CommentBox";
 import CommentList from "components/CommentList";
 
-export default class App extends Component() => {
+export default class App extends Component {
 
   renderButton() {
-
+    if (this.props.auth) {
+      return (
+        <button>
+          Sign Out
+        </button>
+      )
+    } else {
+      return (
+        <button>
+          Sign In
+          </button>
+      )
+    }
   }
-  
+
   renderHeader() {
     return (
       <ul>
@@ -22,7 +35,7 @@ export default class App extends Component() => {
       </ul>
     )
   }
-  
+
   render() {
     return (
       <div>
