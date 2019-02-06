@@ -5,23 +5,6 @@ import { connect } from "react-redux";
 class CommentBox extends Component {
   state = { comment: "" };
 
-  // Our component just got rendered
-  componentDidMount() {
-    this.shouldNavigateAway();
-  }
-
-  // Our component just got updated
-  componentDidUpdate() {
-    this.shouldNavigateAway();
-  }
-
-  shouldNavigateAway() {
-    if (!this.props.auth) {
-      console.log('I NEED TO LEAVE!!!');
-      this.props.history.push('/');
-    }
-  }
-
   handleChange = event => {
     this.setState({ comment: event.target.value });
   };
@@ -51,11 +34,9 @@ class CommentBox extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return { auth: state.auth };
-}
+
 
 export default connect(
-  mapStateToProps,
+  null,
   actions
 )(CommentBox);
