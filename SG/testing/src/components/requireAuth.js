@@ -21,7 +21,7 @@ export default (ChildComponent) => {
     }
 
     render() {
-      return <ChildComponent />;
+      return <ChildComponent {...this.props} />;
     }
   }
 
@@ -31,16 +31,3 @@ export default (ChildComponent) => {
 
   return connect(mapStateToProps)(ComposedComponent);
 };
-
-
-// Imagine we are in commentbox.js 
-
-import requireAuth from 'components/requireAuth';
-
-class CommentBox {
-
-}
-
-export default requireAuth(CommentBox);
-
-import CommentBox from 'components/CommentBox'; 
